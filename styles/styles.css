@@ -1,15 +1,16 @@
 #grid{
 	width:500px;
 	height:500px;
-
+	padding:10px;
 
 }
 
 .rows{
 	outline: 1px solid;
 	float:left;
-	padding:1px;
-	background-color:#FFFFFF;
+	padding:1px; 
+	background-color: #FFFFFF;
+
 }
 
 
