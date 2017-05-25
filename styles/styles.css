@@ -17,14 +17,6 @@
 }
 
 
-.rows:hover{
-    background-color: #ff0000;
-}
-
-.rows:hover ::after{
-	background-color: #ff0000;
-}
-
 html{
 	background-color: lightgrey;
 }
