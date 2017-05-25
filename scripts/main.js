@@ -1,6 +1,6 @@
 //declare variables to be used globally
 
-var gridWidth = 800;
+var gridWidth = 500;
 var rows =16;
 var square = rows*rows;
 var rowSize;
@@ -21,7 +21,6 @@ $("#clear").on('click', function(){
 	rowSize = rowSize + "px";
 
 	$(".rows").remove();
-
 	createGrid();
 
 });
@@ -33,7 +32,13 @@ function createGrid(){
 
 	for(var j=1; j<=square; j++){
  		$("<div>", {"class": "rows"}).appendTo($("#grid"));
-	}
+ 		makeSquare();
+		$(".rows").hover(function() {
+			$(this).css("background-color", "red");
+			}, function() {
+			$(this).css("background-color", "red");
+		});
+ 	}
 }
 
 function makeSquare(){
@@ -41,13 +46,3 @@ function makeSquare(){
  		$(".rows").css("width", rowSize);
  		$(".rows").css("height", rowSize);
  	}
-
-$("#grid .rows").on({
-    mouseover: function () {
-        $(this).css("background-color","#ff0000");
-    },
-    mouseout: function () {
-        $(this).attr("background-color","#ff0000");
-    }
-});
-
