@@ -17,3 +17,6 @@ Hover functionality is working with the default colour currently as Red.
 Next step is to create a random colour generator. Each time the cursor hovers over a square, the generator will select a new colour for that square to change to.
 
 
+UPDATE: Random colour generator created. This changes the colour of the current square each time it is hovered over. Next step is to prevent a square from changing colour once it has already been changed from white.
+
+
