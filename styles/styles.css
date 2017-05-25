@@ -2,7 +2,10 @@
 	width:500px;
 	height:500px;
 	padding:10px;
+}
 
+#content{
+	position:absolute;
 }
 
 .rows{
@@ -14,9 +17,19 @@
 }
 
 
-/*
 .rows:hover{
     background-color: #ff0000;
 }
 
+.rows:hover ::after{
+	background-color: #ff0000;
+}
+
+html{
+	background-color: lightgrey;
+}
+
+.button{
+	align-items:relative;
+}
 
