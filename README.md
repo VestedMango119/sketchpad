@@ -9,3 +9,11 @@ This project is to create a browser based sketchpad with the following features:
 
 This project is from https://theodinproject.com/ as part of the Web Development 101 session. 
 
+-------------------------------------------------------------------
+25/05/2017
+
+Hover functionality is working with the default colour currently as Red. 
+
+Next step is to create a random colour generator. Each time the cursor hovers over a square, the generator will select a new colour for that square to change to.
+
+
